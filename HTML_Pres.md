@@ -132,6 +132,10 @@ Examples:
 
 <p>This is <sub>subscripted</sub> text.</p>
 
+<h3>Background and text color</h3>
+    The attribute bgcolor can set the color of the background on a page, (i.e. <body bgcolor = "Red">)
+    The text tag can be used to change the text color, (i.e. <body texts = "Red">)
+
 
 
         
