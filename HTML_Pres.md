@@ -97,9 +97,40 @@ My Bonnie lies over the ocean.
 Oh, bring back my Bonnie to me.
 </pre>
 
-<h3>Line Breaks</h4>
+<h3>Line Breaks</h3>
     <br> Will start a new line without starting a new paragraph
     <hr> Will create a horizontal line 
+
+<h3>Text Formatting Tags</h3>
+    <b> Defines bold text
+    <big> Defines big text
+    <em> Defines emphasized text
+    <i> Defines Italic text
+    <small> Defines small text
+    <strong> Defines strong text
+    <sub> Defines subscripted text
+    <super> Defines superscripted text
+    <ins> Defines inserted text
+    <del> Defines deleted text
+    <tt> Defines teletype text
+    <u> Defines underline text
+    <strike> Defines strike text
+    
+Examples:
+
+<p>This text is normal.</p>
+
+<p><b>This text is bold</b>.</p>
+
+<p><strong>This text is strong</strong>.</p>
+
+<p><i>This text is italic</i>.</p>
+
+<p><em>This text is emphasized</em>.</p>
+
+<p>This is <sup>superscripted</sup> text.</p>
+
+<p>This is <sub>subscripted</sub> text.</p>
 
 
 
