@@ -61,5 +61,13 @@
         </body>
         </html>
 
+<h3>Paragraph tag</h3>
+    HTML documents are divided into paragraphs
+    Paragraphs are defined by the <p> tag
+    You cannot be sure how HTML will be displayed.
+    Large or small screens, and resized windows will create different results.
+    With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+    The browser will remove extra spaces and extra lines when the page is displayed.
+    Any number of spaces, and any number of new lines, count as only one space
 
         
