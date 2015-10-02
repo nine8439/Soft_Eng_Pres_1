@@ -97,6 +97,10 @@ My Bonnie lies over the ocean.
 Oh, bring back my Bonnie to me.
 </pre>
 
+<h3>Line Breaks</h4>
+    <br> Will start a new line without starting a new paragraph
+    <hr> Will create a horizontal line 
+
 
 
         
