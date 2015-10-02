@@ -39,4 +39,27 @@
     ~The text between <p> and </p> describes a paragraph
 
 ##HTML Tags
-    
+    Container Element
+        ~Container Tags contains a start and end tag, (i.e. <p>...</p>)
+    Empty Element
+        ~Tags which only require start tag, (i.e. <br> which starts a new line)
+    Heading Element
+        ~Prints the heading of the page, ranges from <H1> to <H6>. <H1> prints the 
+        largest heading and <h6> prints the smallest heading
+        ~Heading tags also require end tag
+        The following tags begin with <h1> tags and increase to <h6> tags
+
+        <html>
+        <head><title>heading example</title></head>
+        <body>
+        <h1>Header 1</h1>
+        <h2>Header 2</h2>
+        <h3>Header 3</h3>
+        <h4>Header 4</h4>
+        <h5>Header 5</h5>
+        <h6>Header 6</h6>
+        </body>
+        </html>
+
+
+        
