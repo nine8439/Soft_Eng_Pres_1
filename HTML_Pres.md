@@ -97,6 +97,8 @@
     + Any number of spaces, and any number of new lines, count as only one space
 
     + If you would like the text to display as the programmer formatted it, then the tag <pre> should be employed. The content will be dsiplayed as its formatted in between the start and end tag
+
+<!DOCTYPE html>
 <html>
 <p>
 This paragraph
@@ -119,14 +121,15 @@ ignores it.
 
     ~ Similarly, this source code will output the same text and formatting as the previous example
 
+<!DOCTYPE html>
 <html>
-'<p>'
+<p>
 This paragraph
 contains         a lot of spaces
 in the source         code,
 but the        browser 
 ignores it.
-'</p>'
+</p>
 </html>
 
 <p>
