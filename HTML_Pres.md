@@ -33,13 +33,21 @@
     </html>
 
 *
+
     1. The first tag indicates that the document type will be HTML
+
     2. The text between <html> and </html> describes an HTML document
+
     3. The text between <head> and </head> provides information about the document
+
     4. The text between <title> and </title> provides a title for the document
+
     5. The text between <body> and </body> describes the visible page content
-    6. The text between <h1> and </h1> describes a heading
+
+    6. The text between h1 and /h1 describes a heading
+
     7. The text between <p> and </p> describes a paragraph
+
 *
 
 ##HTML Tags
