@@ -255,6 +255,57 @@ Within a link, you can add a target attribute. The target attribute specifies wh
         + <password> Creates a single line text entry field. The characters entered appear as asterisks (*)
     
         + <label> Defines a selectable list
+
+<h3>Developing HTML</h3>
+
+    Writing the Code
+        ~Any text editor should suffice for writing html code. Any file should be saved with the .html extension
+    Running the Code
+        ~Save the HTML file
+        ~Open an internet browser and input the file path into the URL Bar, or Address Bar, and hit enter
+
+<h3>HTML and Software Engineering</h3>
+
+    + HTML is used by 65.3% of all the websites whose markup language we know.
+
+    + In web application development, HTML usually provides the front end and user interface aspects 
+    
+    + HTML can interact with many languages on the back end
+        1. This means HTML can pass data and information it receives on the front end, and pass it to a a method running a 
+            different language which contains the logic of the application
+
+        2. Example of Languages that HTML interfaces well with: Go, Node.js, Python/Ruby, Java, C#
+
+        <h4>How they interact with HTML</h4>
+
+        1. Java: Chosen by big players. It doesn’t mean that Java is the best one. Java was built around Enterprise model. At the beginning they planed to make business around it (the same .NET). It means that Java is: reliable, expensive. The costs come with overcomplicated solutions. But it also means that they are overestimated. Just check how popular web framework are going. Which startup is using Enteprise now? It’s complicated. Sprigs goes towards Rails model now (and still doesn’t have WebSockets support). Leading companies, which want to have Java stack, prefer new fresh solutions (Play, Scala etc...) - LinkedIn, Xerox. Google have their own solutions. Oracle? They took open MySQL and almost close it. Just look how they did with 5.6 release.
+
+        2. Python/Ruby: Very fast developing and prototyping. Enjoy when coding, easy to maintain and refactor. Most of the web is driven by Python / Ruby / PHP frameworks (I don’t want to talk about the last one). Those languages are built by professional geeks. 
+    
+            Disadvantage: not as fast as Java. But for serving web content it is fast enough. Because there are implementations with JIT (eg PyPy, Numba for Python), this disadvantage is going to be even weaker. JIT gives a huge boost.
+
+            Others also can argue that dynamic type languages (like Python, Ruby) are error prone. Static types allows you to find bugs earlier, but only some of them. If want to rely on static type checking, then I feel sorry for your applications and developers. All in all you need to have tests that cover all functions. Those tests, by the way, make validations about arguments (types) you pass to functions. On the other hand Java type hierarchy slows your development and makes refactoring hard.
+
+        3. Node.js: Similar to Python/Ruby, offers better performance rather than reliability
+
+        4. Go:  Takes the best from Java (fast) and Python / Ruby (fun, productive). Have simple yet powerful type hierarchy. Disadvantages: although the project is stable, there are not a lot of tools around it. Some which exists are not as rich / mature as the ones we have in previous technologies.
+            Nonetheless Go is already used in production (Google, Heroku). 
+    
+        5. C#: For many, C# has a familiar syntax in that it follows C.
+        Fully integrated with the .NET library, providing access to a great repository of functionality and support.
+        Safer than its namesakes (C/++) in that pointer types are not permitted. Loses any cross-platform capabilities because of the integration with .NET.
+
+    
+<h3>Learn more about HTML</h3>
+
+~The internet is a great resource for learning HTML:
+1. Youtube video which gives good overview on how to get started: <a href="https://www.youtube.com/watch?v=fS7w-TXinPE">https://www.youtube.com/watch?v=fS7w-TXinPE</a>
+2. This website provides a reference with examples for many HTML questions: <a href="http://www.w3schools.com/html/">http://www.w3schools.com/html/</a>
+
+<h3>Examples</h3>
+Head over to the example folder in the repository to see example of all the topics discussed.
+
+They can be run as described earlier in the presentation
         
 
 
