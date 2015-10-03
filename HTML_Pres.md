@@ -159,6 +159,22 @@ Within a link, you can add a target attribute. The target attribute specifies wh
 |<i>framename</i>| Opens the linked document in a named frame                                           |
 
 
+<h3>Images</h3>
+
+    To display an image on a page, you use the image tag, as well as the source attribute which specifies where the image is store
+    (i.e. <Img SRC="Desktop/Photos/Photo.jpeg">)
+    Image attributes
+    <img> Defines an image
+    <Src> Display an image on a page, Src is the source of where the image is stored. A url can also be a source
+    <Width> Defines the width of an image
+    <Height> Defines the height of the image
+    <Border> Defines a border of the image
+    <Hspace> Horizontal space of the image
+    <Vspace> Vertical space of the image
+    <Align> Align an image within the text
+    
+
+
 
 
 
