@@ -97,16 +97,21 @@
     + Any number of spaces, and any number of new lines, count as only one space
 
     + If you would like the text to display as the programmer formatted it, then the tag <pre> should be employed. The content will be dsiplayed as its formatted in between the start and end tag
-
 <!DOCTYPE html>
 <html>
-<p>
-This paragraph
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>This paragraph
 contains a lot of lines
 in the source code,
 but the browser 
-ignores it.
-</p>
+ignores it.</p>
+
+</body>
 </html>
 
     ~The above code will yield the following
