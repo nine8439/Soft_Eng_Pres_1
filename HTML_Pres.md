@@ -17,8 +17,8 @@
     tag will usually begin with /, (i.e. <HTML>...</HTML>)
 
     Simple HTML example
-    `html
-        <!DOCTYPE html>
+    
+    <!DOCTYPE html>
         <html>
         <head>
         <title>Page Title</title>
@@ -29,8 +29,9 @@
         <p>My first paragraph.</p>
 
         </body>
-        </html>
-    `
+    </html>
+
+
     ~The first tag indicates that the document type will be HTML
     ~The text between <html> and </html> describes an HTML document
     ~The text between <head> and </head> provides information about the document
