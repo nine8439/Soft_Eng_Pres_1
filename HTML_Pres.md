@@ -173,7 +173,22 @@ Within a link, you can add a target attribute. The target attribute specifies wh
     <Vspace> Vertical space of the image
     <Align> Align an image within the text
     
+<h3>Tables</h3>
+    Tables are defined with the <table> tag
+    Tables are divided into table rows with the <tr> tag.
+    Table rows are divided into table data with the <td> tag.
+    A table row can also be divided into table headings with the <th> tag.
 
+    Other Table Attributes
+        ~<Caption> captions the table
+        ~<colgroup> defines the groups of table columns
+        ~<col> Defines the attribute values for one or more columns in a table
+        ~<thead> Defines a table head
+        ~<tbody> Defines a table body
+        ~<tfoot> Defines a table footer
+        ~<CellSpacing> amount of spaces between table cells
+        ~<Colspan> space around the edges of each cell
+        
 
 
 
