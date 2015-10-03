@@ -163,7 +163,7 @@ Examples:
 <h3>Hyperlink Tag</h3>
 A hyperlink is a text or an image you can click on, and jump to another document.
 In HTML, links are defined with the <a> tag:
-    `<a href="url">link text</a>'
+    <a href="url">link text</a>
 
 Within a link, you can add a target attribute. The target attribute specifies where to open the linked document.
 
@@ -178,17 +178,18 @@ Within a link, you can add a target attribute. The target attribute specifies wh
 
 <h3>Images</h3>
 
-    To display an image on a page, you use the image tag, as well as the source attribute which specifies where the image is store
+    + To display an image on a page, you use the image tag, as well as the source attribute which specifies where the image is stored
     (i.e. <Img SRC="Desktop/Photos/Photo.jpeg">)
-    Image attributes
-    <img> Defines an image
-    <Src> Display an image on a page, Src is the source of where the image is stored. A url can also be a source
-    <Width> Defines the width of an image
-    <Height> Defines the height of the image
-    <Border> Defines a border of the image
-    <Hspace> Horizontal space of the image
-    <Vspace> Vertical space of the image
-    <Align> Align an image within the text
+    
+    <h4>Image attributes</h4>
+        + <img> Defines an image
+        + <Src> Display an image on a page, Src is the source of where the image is stored. A url can also be a source
+        + <Width> Defines the width of an image
+        + <Height> Defines the height of the image
+        + <Border> Defines a border of the image
+        + <Hspace> Horizontal space of the image
+        + <Vspace> Vertical space of the image
+        + <Align> Align an image within the text
     
 <h3>Tables</h3>
     Tables are defined with the <table> tag
@@ -197,14 +198,21 @@ Within a link, you can add a target attribute. The target attribute specifies wh
     A table row can also be divided into table headings with the <th> tag.
 
     Other Table Attributes
-        ~<Caption> captions the table
-        ~<colgroup> defines the groups of table columns
-        ~<col> Defines the attribute values for one or more columns in a table
-        ~<thead> Defines a table head
-        ~<tbody> Defines a table body
-        ~<tfoot> Defines a table footer
-        ~<CellSpacing> amount of spaces between table cells
-        ~<Colspan> space around the edges of each cell
+        + <Caption> captions the table
+
+        + <colgroup> defines the groups of table columns
+    
+        + <col> Defines the attribute values for one or more columns in a table
+
+        + <thead> Defines a table head
+    
+        + <tbody> Defines a table body
+    
+        + <tfoot> Defines a table footer
+    
+        + <CellSpacing> amount of spaces between table cells
+    
+        + <Colspan> space around the edges of each cell
         
 <h3>List Tag</h3>
 
@@ -212,12 +220,16 @@ Within a link, you can add a target attribute. The target attribute specifies wh
     <b>Ordered Lists</b> : Ordered Lists are numbered
     <b>Definition Lists</b> : Used to create a definition list
     
-    ~<LI> empty tag, used for representing list terms
-    ~<OL> Ordered List
-    ~<UL> Unordered List
-    ~<DL> Defines a definition list
-    ~<DT> Defines a term in a definition list
-    ~<DD> Defines a description of a term in a definition list
+    + <LI> empty tag, used for representing list terms
+    
+    + <OL> Ordered List
+    
+    + <UL> Unordered List
+    
+    + <DL> Defines a definition list
+    
+    + <DT> Defines a term in a definition list
+    + <DD> Defines a description of a term in a definition list
     
 <h3>Forms</h3>
 
@@ -232,12 +244,17 @@ Within a link, you can add a target attribute. The target attribute specifies wh
     </form>
 
     More tags that can be used in forms
-        ~<form> Defines a form for user input
-        ~<input> used to create an input field
-        ~<text> Creates a single line text entry field
-        ~<textarea> Defines a text area
-        ~<password> Creates a single line text entry field. The characters entered appear as asterisks (*)
-        ~<label> Defines a selectable list
+        + <form> Defines a form for user input
+
+        + <input> used to create an input field
+    
+        + <text> Creates a single line text entry field
+    
+        + <textarea> Defines a text area
+    
+        + <password> Creates a single line text entry field. The characters entered appear as asterisks (*)
+    
+        + <label> Defines a selectable list
         
 
 
