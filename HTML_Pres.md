@@ -189,6 +189,19 @@ Within a link, you can add a target attribute. The target attribute specifies wh
         ~<CellSpacing> amount of spaces between table cells
         ~<Colspan> space around the edges of each cell
         
+<h3>List Tag</h3>
+
+    <b>Unordered lists</b> : unordered list are bulleted 
+    <b>Ordered Lists</b> : Ordered Lists are numbered
+    <b>Definition Lists</b> : Used to create a definition list
+    
+    ~<LI> empty tag, used for representing list terms
+    ~<OL> Ordered List
+    ~<UL> Unordered List
+    ~<DL> Defines a definition list
+    ~<DT> Defines a term in a definition list
+    ~<DD> Defines a description of a term in a definition list
+    
 
 
 
