@@ -6,16 +6,17 @@
 
 
 ##HTML
-	HTML stands for Hyper Text Markup Language
-	The markup language is used for describing web documents
-	The language is built up using a set of markup tags
-	HTML documents are described by HTML tags, and each tag describes a different document type
-    HTML is not case sensitive
-    HTML documents contain HTML tags and plain text
-    A tag is always enclosed in an angle bracket, (i.e. <>, <HTML>)
-    Tags usually come pairs, start tag and end tag or opening tag and closing tag, where the closing
-    tag will usually begin with /, (i.e. <HTML>...</HTML>)
-
+*
+	+HTML stands for Hyper Text Markup Language
+	+The markup language is used for describing web documents
+	+The language is built up using a set of markup tags
+	+HTML documents are described by HTML tags, and each tag describes a different document type
+    +HTML is not case sensitive
+    +HTML documents contain HTML tags and plain text
+    +A tag is always enclosed in an angle bracket, (i.e. <>, <HTML>)
+    +Tags usually come pairs, start tag and end tag or opening tag and closing tag, where the closing
+    +tag will usually begin with /, (i.e. <HTML>...</HTML>)
+*
     Simple HTML example
     
     <!DOCTYPE html>
@@ -31,14 +32,15 @@
         </body>
     </html>
 
-
-    ~The first tag indicates that the document type will be HTML
-    ~The text between <html> and </html> describes an HTML document
-    ~The text between <head> and </head> provides information about the document
-    ~The text between <title> and </title> provides a title for the document
-    ~The text between <body> and </body> describes the visible page content
-    ~The text between <h1> and </h1> describes a heading
-    ~The text between <p> and </p> describes a paragraph
+*
+    1. The first tag indicates that the document type will be HTML
+    2. The text between <html> and </html> describes an HTML document
+    3. The text between <head> and </head> provides information about the document
+    4. The text between <title> and </title> provides a title for the document
+    5. The text between <body> and </body> describes the visible page content
+    6. The text between <h1> and </h1> describes a heading
+    7. The text between <p> and </p> describes a paragraph
+*
 
 ##HTML Tags
     Container Element
