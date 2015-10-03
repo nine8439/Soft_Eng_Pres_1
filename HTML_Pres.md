@@ -1,22 +1,32 @@
 #HTML Presentation
 ##History of HTML
-	###Web Invented with HTML with HTML as its Publishing Language
-		In 1980, physicist Tim Berners-Lee, who was a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents.
-		Berners-Lee specified HTML and wrote the browser and server software in late 1990.
+	+ Web Invented with HTML with HTML as its Publishing Language
+
+    + In 1980, physicist Tim Berners-Lee, who was a contractor at CERN, proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents.
+
+    + Berners-Lee specified HTML and wrote the browser and server software in late 1990.
 
 
 ##HTML
-*
+
 	+HTML stands for Hyper Text Markup Language
+
 	+The markup language is used for describing web documents
+
 	+The language is built up using a set of markup tags
+
 	+HTML documents are described by HTML tags, and each tag describes a different document type
+
     +HTML is not case sensitive
+
     +HTML documents contain HTML tags and plain text
+
     +A tag is always enclosed in an angle bracket, (i.e. <>, <HTML>)
+
     +Tags usually come pairs, start tag and end tag or opening tag and closing tag, where the closing
+
     +tag will usually begin with /, (i.e. <HTML>...</HTML>)
-*
+
     Simple HTML example
     
     <!DOCTYPE html>
@@ -32,7 +42,6 @@
         </body>
     </html>
 
-*
 
     1. The first tag indicates that the document type will be HTML
 
@@ -48,7 +57,6 @@
 
     7. The text between <p> and </p> describes a paragraph
 
-*
 
 ##HTML Tags
     Container Element
