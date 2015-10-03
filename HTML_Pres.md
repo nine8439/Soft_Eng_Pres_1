@@ -17,7 +17,7 @@
     tag will usually begin with /, (i.e. <HTML>...</HTML>)
 
     Simple HTML example
-    ```html
+    `html
         <!DOCTYPE html>
         <html>
         <head>
@@ -30,7 +30,7 @@
 
         </body>
         </html>
-    ```
+    `
     ~The first tag indicates that the document type will be HTML
     ~The text between <html> and </html> describes an HTML document
     ~The text between <head> and </head> provides information about the document
@@ -151,7 +151,7 @@ In HTML, links are defined with the <a> tag:
 
 Within a link, you can add a target attribute. The target attribute specifies where to open the linked document.
 
-| Tables         | Are           |
+| Target Value   | Description   |
 | -------------  |:-------------:|
 | _blank         | Opens the linked document in a new window or tab                                     |
 | _self          | Opens the linked document in the same frame as it was clicked (this is default)      |
