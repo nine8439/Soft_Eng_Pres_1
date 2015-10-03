@@ -116,15 +116,17 @@ in the source code,
 but the browser 
 ignores it.
 </p>
+
     ~ Similarly, this source code will output the same text and formatting as the previous example
+
 <html>
-<p>
+'<p>'
 This paragraph
 contains         a lot of spaces
 in the source         code,
 but the        browser 
 ignores it.
-</p>
+'</p>'
 </html>
 
 <p>
