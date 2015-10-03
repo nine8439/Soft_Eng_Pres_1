@@ -136,6 +136,32 @@ Examples:
     The attribute bgcolor can set the color of the background on a page, (i.e. <body bgcolor = "Red">)
     The text tag can be used to change the text color, (i.e. <body texts = "Red">)
 
+<h3>Text Allignment</h3>
+
+    Like any ohter document, you can have the text centered, aligned right, or aligned left. The following commands are as follows
+    <align = "left">
+    <align = "center">
+    <align = "center">
+    
+<h3>Hyperlink Tag</h3>
+A hyperlink is a text or an image you can click on, and jump to another document.
+In HTML, links are defined with the <a> tag:
+    <a href="url">link text</a>
+
+Within a link, you can add a target attribute. The target attribute specifies where to open the linked document.
+
+| Tables         | Are           |
+| -------------  |:-------------:|
+| _blank         | Opens the linked document in a new window or tab                                     |
+| _self          | Opens the linked document in the same frame as it was clicked (this is default)      |
+| _parent        | Opens the linked document in the parent frame                                        |
+|_top            | Opens the linked document in the full body of the window                             |
+|<i>framename</i>| Opens the linked document in a named frame                                           |
+
+
+
+
+
 
 
         
