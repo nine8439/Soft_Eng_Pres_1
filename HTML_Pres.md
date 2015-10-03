@@ -202,6 +202,26 @@ Within a link, you can add a target attribute. The target attribute specifies wh
     ~<DT> Defines a term in a definition list
     ~<DD> Defines a description of a term in a definition list
     
+<h3>Forms</h3>
+
+    ~A form is an area that can contain form elements
+    ~Form elements are elements that allow the user to enter information in a form, such as
+    text fields, text area fields, drop-down menus, radio buttons, checkboxes, and etc.
+    ~A form tag is used to define a form, <form>
+    <form>
+    .
+    input
+    .
+    </form>
+
+    More tags that can be used in forms
+        ~<form> Defines a form for user input
+        ~<input> used to create an input field
+        ~<text> Creates a single line text entry field
+        ~<textarea> Defines a text area
+        ~<password> Creates a single line text entry field. The characters entered appear as asterisks (*)
+        ~<label> Defines a selectable list
+        
 
 
 
