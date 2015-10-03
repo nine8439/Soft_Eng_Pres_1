@@ -82,15 +82,22 @@
         </html>
 
 <h3>Paragraph tag</h3>
-    HTML documents are divided into paragraphs
-    Paragraphs are defined by the <p> tag
-    You cannot be sure how HTML will be displayed.
-    Large or small screens, and resized windows will create different results.
-    With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
-    The browser will remove extra spaces and extra lines when the page is displayed.
-    Any number of spaces, and any number of new lines, count as only one space
-    If you would like the text to display as the programmer formatted it, then
-    the tag <pre> should be employed. The content will be dsiplayed as its formatted in between the start and end tag
+    + HTML documents are divided into paragraphs
+    
+    + Paragraphs are defined by the <p> tag
+
+    + You cannot be sure how HTML will be displayed.
+    
+    + Large or small screens, and resized windows will create different results.
+
+    + With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.
+
+    + The browser will remove extra spaces and extra lines when the page is displayed.
+
+    + Any number of spaces, and any number of new lines, count as only one space
+
+    + If you would like the text to display as the programmer formatted it, then the tag <pre> should be employed. The content will be dsiplayed as its formatted in between the start and end tag
+<html>
 <p>
 This paragraph
 contains a lot of lines
@@ -98,6 +105,27 @@ in the source code,
 but the browser 
 ignores it.
 </p>
+</html>
+
+    ~The above code will yield the following
+
+<p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser 
+ignores it.
+</p>
+    ~ Similarly, this source code will output the same text and formatting as the previous example
+<html>
+<p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser 
+ignores it.
+</p>
+</html>
 
 <p>
 This paragraph
@@ -106,6 +134,19 @@ in the source         code,
 but the        browser 
 ignores it.
 </p>
+
+    ~Now, when we apply the <pre> tag, the code is formatted as it appears in the code
+<html>
+<pre>
+My Bonnie lies over the ocean.
+
+My Bonnie lies over the sea.
+
+My Bonnie lies over the ocean.
+
+Oh, bring back my Bonnie to me.
+</pre>
+</html>
 
 <pre>
 My Bonnie lies over the ocean.
@@ -122,23 +163,37 @@ Oh, bring back my Bonnie to me.
     <hr> Will create a horizontal line 
 
 <h3>Text Formatting Tags</h3>
-    <b> Defines bold text
-    <big> Defines big text
-    <em> Defines emphasized text
-    <i> Defines Italic text
-    <small> Defines small text
-    <strong> Defines strong text
-    <sub> Defines subscripted text
-    <super> Defines superscripted text
-    <ins> Defines inserted text
-    <del> Defines deleted text
-    <tt> Defines teletype text
-    <u> Defines underline text
-    <strike> Defines strike text
+    + <b> Defines bold text
+
+    + <big> Defines big text
+
+    + <em> Defines emphasized text
+
+    + <i> Defines Italic text
+    
+    + <small> Defines small text
+
+    + <strong> Defines strong text
+    
+    + <sub> Defines subscripted text
+
+    + <super> Defines superscripted text
+    
+    + <ins> Defines inserted text
+
+    + <del> Defines deleted text
+
+    + <tt> Defines teletype text
+
+    + <u> Defines underline text
+
+    + <strike> Defines strike text
     
 Examples:
 
 <p>This text is normal.</p>
+
+<html><p>This text is normal.</p></html>
 
 <p><b>This text is bold</b>.</p>
 
