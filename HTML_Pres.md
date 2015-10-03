@@ -97,76 +97,10 @@
     + Any number of spaces, and any number of new lines, count as only one space
 
     + If you would like the text to display as the programmer formatted it, then the tag <pre> should be employed. The content will be dsiplayed as its formatted in between the start and end tag
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
 
-<h1>My First Heading</h1>
-<p>This paragraph
-contains a lot of lines
-in the source code,
-but the browser 
-ignores it.</p>
+    ~See the examples folder to see different formattings and how they are treated in HTML
 
-</body>
-</html>
 
-    ~The above code will yield the following
-
-<p>
-This paragraph
-contains a lot of lines
-in the source code,
-but the browser 
-ignores it.
-</p>
-
-    ~ Similarly, this source code will output the same text and formatting as the previous example
-
-<!DOCTYPE html>
-<html>
-<p>
-This paragraph
-contains         a lot of spaces
-in the source         code,
-but the        browser 
-ignores it.
-</p>
-</html>
-
-<p>
-This paragraph
-contains         a lot of spaces
-in the source         code,
-but the        browser 
-ignores it.
-</p>
-
-    ~Now, when we apply the <pre> tag, the code is formatted as it appears in the code
-<html>
-<pre>
-My Bonnie lies over the ocean.
-
-My Bonnie lies over the sea.
-
-My Bonnie lies over the ocean.
-
-Oh, bring back my Bonnie to me.
-</pre>
-</html>
-
-<pre>
-My Bonnie lies over the ocean.
-
-My Bonnie lies over the sea.
-
-My Bonnie lies over the ocean.
-
-Oh, bring back my Bonnie to me.
-</pre>
 
 <h3>Line Breaks</h3>
     <br> Will start a new line without starting a new paragraph
@@ -203,8 +137,6 @@ Examples:
 
 <p>This text is normal.</p>
 
-<html><p>This text is normal.</p></html>
-
 <p><b>This text is bold</b>.</p>
 
 <p><strong>This text is strong</strong>.</p>
@@ -231,7 +163,7 @@ Examples:
 <h3>Hyperlink Tag</h3>
 A hyperlink is a text or an image you can click on, and jump to another document.
 In HTML, links are defined with the <a> tag:
-    <a href="url">link text</a>
+    `<a href="url">link text</a>'
 
 Within a link, you can add a target attribute. The target attribute specifies where to open the linked document.
 
